@@ -7,3 +7,26 @@ Author: Joe Fallon
 Author URI: http://blog.joefallon.net
 Tags: clean, basic, starter
 */
+
+
+#heading
+{
+    background-color: #CAFFD8; /* green */
+    height: 100px;
+}
+
+#main-content
+{
+    background-color: #FFCEFF; /* pink */
+}
+
+#sidebar
+{
+    background-color: #AAAAFF; /* blue */
+}
+
+#footer
+{
+    background-color: #CAFFD8; /* green */
+    height: 100px;
+}
