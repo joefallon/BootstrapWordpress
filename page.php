@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <!--page.php-->
-
+<html lang="en">
 <?php get_header(); ?>
-
+<body>
 <?php if(have_posts())
 {
     while(have_posts()) : the_post(); ?>
@@ -13,3 +14,5 @@ wp_reset_query(); ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+</body>
+</html>

@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <!--404.php-->
-
+<html lang="en">
 <?php get_header(); ?>
-
+<body>
 <h1>Page Not Found</h1>
 <p>
     <strong>Did you type the URL?</strong><br/>
@@ -19,3 +20,5 @@
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+</body>
+</html>

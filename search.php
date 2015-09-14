@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <!--search.php-->
-
+<html lang="en">
 <?php get_header(); ?>
-
+<body>
 <h1><?php printf(__('Search Results for: %s'), '' . get_search_query() . ''); ?></h1>
 <?php if(have_posts()) : ?>
     <?php while(have_posts()) : the_post(); ?>
@@ -29,3 +30,5 @@
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+</body>
+</html>

@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <!--archive.php-->
-
+<html lang="en">
 <?php get_header(); ?>
-
+<body>
     <h1>
         <?php if(is_author()): ?>
             Author: <?php echo $author_name ?>
@@ -42,3 +43,5 @@
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+</body>
+</html>
